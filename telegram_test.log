@@ -1,0 +1,59 @@
+2025-05-22 22:47:36 - Enviando mensagem para Telegram
+Data: Array
+(
+    [url] => https://api.telegram.org/bot8144994385:AAGCDElfpvAFlUcLjhBTg8kvrbwQKbaU6nY/sendMessage
+    [data] => Array
+        (
+            [chat_id] => 7635999916
+            [text] => Teste de mensagem simples
+        )
+
+)
+
+2025-05-22 22:47:37 - Resposta do Telegram
+Data: Array
+(
+    [http_code] => 200
+    [response] => {"ok":true,"result":{"message_id":120,"from":{"id":8144994385,"is_bot":true,"first_name":"7com1 Bot","username":"SeteCom1Bot"},"chat":{"id":7635999916,"first_name":"7com1","last_name":"Academy","type":"private"},"date":1747954062,"text":"Teste de mensagem simples"}}
+)
+
+2025-05-22 22:47:37 - Enviando mensagem para Telegram
+Data: Array
+(
+    [url] => https://api.telegram.org/bot8144994385:AAGCDElfpvAFlUcLjhBTg8kvrbwQKbaU6nY/sendMessage
+    [data] => Array
+        (
+            [chat_id] => 7635999916
+            [text] => <b>Teste</b> com <i>HTML</i>
+            [parse_mode] => HTML
+        )
+
+)
+
+2025-05-22 22:47:38 - Resposta do Telegram
+Data: Array
+(
+    [http_code] => 200
+    [response] => {"ok":true,"result":{"message_id":121,"from":{"id":8144994385,"is_bot":true,"first_name":"7com1 Bot","username":"SeteCom1Bot"},"chat":{"id":7635999916,"first_name":"7com1","last_name":"Academy","type":"private"},"date":1747954063,"text":"Teste com HTML","entities":[{"offset":0,"length":5,"type":"bold"},{"offset":10,"length":4,"type":"italic"}]}}
+)
+
+2025-05-22 22:47:38 - Enviando mensagem para Telegram
+Data: Array
+(
+    [url] => https://api.telegram.org/bot8144994385:AAGCDElfpvAFlUcLjhBTg8kvrbwQKbaU6nY/sendMessage
+    [data] => Array
+        (
+            [chat_id] => 7635999916
+            [text] => Teste com botão
+            [reply_markup] => {"inline_keyboard":[[{"text":"Bot\u00e3o de Teste","callback_data":"test_button"}]]}
+        )
+
+)
+
+2025-05-22 22:47:38 - Resposta do Telegram
+Data: Array
+(
+    [http_code] => 200
+    [response] => {"ok":true,"result":{"message_id":122,"from":{"id":8144994385,"is_bot":true,"first_name":"7com1 Bot","username":"SeteCom1Bot"},"chat":{"id":7635999916,"first_name":"7com1","last_name":"Academy","type":"private"},"date":1747954064,"text":"Teste com bot\u00e3o","reply_markup":{"inline_keyboard":[[{"text":"Bot\u00e3o de Teste","callback_data":"test_button"}]]}}}
+)
+
